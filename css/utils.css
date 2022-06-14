@@ -1,15 +1,18 @@
- .flex-center{
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
+ .flex-center {
+     display: flex;
+     justify-content: center;
+     align-items: center;
  }
-
- .btn{
-    display: flex;
-    padding: 5px 10px;
-    background-color: var(--main-bg-color);
-    border-radius: 7px ;
-    cursor: pointer;
-    color: white;
+ 
+ .btn {
+     display: flex;
+     padding: 5px 10px;
+     background-color: var(--main-bg-color);
+     border-radius: 7px;
+     cursor: pointer;
+     color: white;
+ }
+ 
+ .text-center {
+     text-align: center;
  }
