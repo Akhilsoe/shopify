@@ -24,8 +24,8 @@ nav {
 }
 
 .logo img {
-    width: 83px;
-    padding: 0 30px;
+    width: 100px;
+    padding: 0 20px;
 }
 
 nav ul {
@@ -71,6 +71,11 @@ nav ul li a:hover {
     min-height: calc(100vh - 50px - 10vh);
 }
 
+.quote {
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+}
+
 .slider {
     margin: 20px auto;
     width: 89vw;
@@ -100,6 +105,16 @@ nav ul li a:hover {
     justify-items: center;
     flex-direction: column;
     margin: 30px 30px;
+    transition: transform 0.5s;
+}
+
+.card-items:hover {
+    transform: translateY(-5px);
+    cursor: pointer;
+}
+
+.lines {
+    margin: 8px 0;
 }
 
 footer {
